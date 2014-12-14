@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PageTransition
+//  PageTransitionWithStoryBoard
 //
-//  Created by TakanoriMatsumoto on 2014/12/12.
+//  Created by TakanoriMatsumoto on 2014/12/15.
 //  Copyright (c) 2014年 TakanoriMatsumoto. All rights reserved.
 //
 

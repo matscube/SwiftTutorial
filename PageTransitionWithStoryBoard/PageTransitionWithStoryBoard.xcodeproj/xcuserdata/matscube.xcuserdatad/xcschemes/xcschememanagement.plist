@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PageTransition.xcscheme</key>
+		<key>PageTransitionWithStoryBoard.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21A44C3C1A3B3576003DECDD</key>
+		<key>219D56081A3E022300162FEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>21A44C511A3B3576003DECDD</key>
+		<key>219D561D1A3E022300162FEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

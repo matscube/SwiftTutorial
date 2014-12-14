@@ -1,15 +1,15 @@
 //
-//  PageTransitionTests.swift
-//  PageTransitionTests
+//  PageTransitionWithStoryBoardTests.swift
+//  PageTransitionWithStoryBoardTests
 //
-//  Created by TakanoriMatsumoto on 2014/12/12.
+//  Created by TakanoriMatsumoto on 2014/12/15.
 //  Copyright (c) 2014年 TakanoriMatsumoto. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class PageTransitionTests: XCTestCase {
+class PageTransitionWithStoryBoardTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

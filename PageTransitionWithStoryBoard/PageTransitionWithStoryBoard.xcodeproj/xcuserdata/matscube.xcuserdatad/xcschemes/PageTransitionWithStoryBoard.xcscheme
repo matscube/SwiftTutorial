@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21A44C3C1A3B3576003DECDD"
-               BuildableName = "PageTransition.app"
-               BlueprintName = "PageTransition"
-               ReferencedContainer = "container:PageTransition.xcodeproj">
+               BlueprintIdentifier = "219D56081A3E022300162FEA"
+               BuildableName = "PageTransitionWithStoryBoard.app"
+               BlueprintName = "PageTransitionWithStoryBoard"
+               ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21A44C511A3B3576003DECDD"
-               BuildableName = "PageTransitionTests.xctest"
-               BlueprintName = "PageTransitionTests"
-               ReferencedContainer = "container:PageTransition.xcodeproj">
+               BlueprintIdentifier = "219D561D1A3E022300162FEA"
+               BuildableName = "PageTransitionWithStoryBoardTests.xctest"
+               BlueprintName = "PageTransitionWithStoryBoardTests"
+               ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21A44C511A3B3576003DECDD"
-               BuildableName = "PageTransitionTests.xctest"
-               BlueprintName = "PageTransitionTests"
-               ReferencedContainer = "container:PageTransition.xcodeproj">
+               BlueprintIdentifier = "219D561D1A3E022300162FEA"
+               BuildableName = "PageTransitionWithStoryBoardTests.xctest"
+               BlueprintName = "PageTransitionWithStoryBoardTests"
+               ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21A44C3C1A3B3576003DECDD"
-            BuildableName = "PageTransition.app"
-            BlueprintName = "PageTransition"
-            ReferencedContainer = "container:PageTransition.xcodeproj">
+            BlueprintIdentifier = "219D56081A3E022300162FEA"
+            BuildableName = "PageTransitionWithStoryBoard.app"
+            BlueprintName = "PageTransitionWithStoryBoard"
+            ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21A44C3C1A3B3576003DECDD"
-            BuildableName = "PageTransition.app"
-            BlueprintName = "PageTransition"
-            ReferencedContainer = "container:PageTransition.xcodeproj">
+            BlueprintIdentifier = "219D56081A3E022300162FEA"
+            BuildableName = "PageTransitionWithStoryBoard.app"
+            BlueprintName = "PageTransitionWithStoryBoard"
+            ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21A44C3C1A3B3576003DECDD"
-            BuildableName = "PageTransition.app"
-            BlueprintName = "PageTransition"
-            ReferencedContainer = "container:PageTransition.xcodeproj">
+            BlueprintIdentifier = "219D56081A3E022300162FEA"
+            BuildableName = "PageTransitionWithStoryBoard.app"
+            BlueprintName = "PageTransitionWithStoryBoard"
+            ReferencedContainer = "container:PageTransitionWithStoryBoard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
