@@ -25,7 +25,7 @@ class PopUpViewController: UIViewController {
         var button = UIButton()
         button.frame = CGRectMake(0, 0, 100, 50)
         button.setTitle("Close", forState: UIControlState.Normal)
-        button.center = CGPointMake(self.view.frame.width / 2, 400)
+        button.center = CGPointMake(self.view.frame.width / 2, 300)
         button.backgroundColor = UIColor(red: 0xFE/255, green: 0xAF/255, blue: 0x1E/255, alpha: 1)
         button.addTarget(self, action: "dismiss", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)

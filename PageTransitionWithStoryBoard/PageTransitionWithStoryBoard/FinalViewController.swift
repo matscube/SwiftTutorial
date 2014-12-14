@@ -24,7 +24,7 @@ class FinalViewController: UIViewController {
         var button = UIButton()
         button.frame = CGRectMake(0, 0, 100, 50)
         button.setTitle("Pop", forState: UIControlState.Normal)
-        button.center = CGPointMake(self.view.frame.width / 2, 400)
+        button.center = CGPointMake(self.view.frame.width / 2, 300)
         button.backgroundColor = UIColor(red: 0x7B/255, green: 0x72/255, blue: 0xE9/255, alpha: 1)
         button.addTarget(self, action: "pop", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)

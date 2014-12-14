@@ -24,7 +24,7 @@ class FirstViewController: UIViewController {
         var button = UIButton()
         button.frame = CGRectMake(0, 0, 100, 50)
         button.setTitle("Push", forState: UIControlState.Normal)
-        button.center = CGPointMake(self.view.frame.width / 2, 400)
+        button.center = CGPointMake(self.view.frame.width / 2, 300)
         button.backgroundColor = UIColor(red: 0xFF/255, green: 0x43/255, blue: 0x51/255, alpha: 1)
         button.addTarget(self, action: "push", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
