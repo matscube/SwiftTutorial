@@ -64,6 +64,25 @@ class TableViewController: UITableViewController {
         return "Section: \(section)"
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let section = indexPath.section
+        let row = indexPath.row
+        selectedSection = section
+        selectedRow = row
+        
+        self.performSegueWithIdentifier("ModalDetailViewSegue", sender: nil)
+    }
+    
+    private var selectedSection: Int?
+    private var selectedRow: Int?
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "ModalDetailViewSegue") {
+          var detailVC = segue.destinationViewController as DetailViewController
+            detailVC.section = selectedSection
+            detailVC.row = selectedRow
+        }
+    }
+    
 
     // Hide Status Bar
     override func prefersStatusBarHidden() -> Bool {
