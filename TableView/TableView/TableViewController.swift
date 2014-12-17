@@ -41,13 +41,16 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        // Set common style on UITableViewCell
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
+        // get cell position
         let section = indexPath.section
         let row = indexPath.row
         cell.textLabel?.text = "\(section)-\(row)"
         cell.detailTextLabel?.text = "\(section)"
         
+        // set label for specific cell
         var label = UILabel()
         label.frame = CGRectMake(50, 0, 250, cell.frame.height)
         label.textAlignment = NSTextAlignment.Center
